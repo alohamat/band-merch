@@ -1,5 +1,9 @@
+import DashboardLayout from "../components/layout/DashboardLayout"
+
 export default function LandingPage() {
     return (
-        <h1>Hello, world!</h1>
+        <DashboardLayout bg="purple">
+            <h1>Hello, world!</h1>
+        </DashboardLayout>
     )
 }
