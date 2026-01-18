@@ -2,7 +2,7 @@ import Navbar from "./Navbar"
 
 type DashboardLayoutProps = {
     children: React.ReactNode;
-    bg: DashboardBg;
+    bg?: DashboardBg;
 }
 type DashboardBg = "purple" | "blue" | "green" | "black"
 
@@ -16,7 +16,7 @@ const gradientMap: Record<DashboardBg, string> = {
 
 export default function DashboardLayout({ children, bg }: DashboardLayoutProps) {
     return (
-        <div className={`min-h-screen flex animated-bg ${gradientMap[bg]}`}>
+        <div className={`min-h-screen flex animated-bg ${gradientMap[bg ?? "black"]}`}>
 
       <div className="flex flex-col flex-1">
         <Navbar />

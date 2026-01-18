@@ -1,4 +1,7 @@
 @import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap');
+
+
 
 
 @keyframes dancingbackground {
@@ -11,4 +14,33 @@
 .animated-bg {
     animation: dancingbackground 20s infinite linear;
     background-size: 200% 200%;
+}
+
+
+@keyframes shimmer {
+ 0% {color: rgba(255, 0, 0, 0.432);}
+ 50% { color: red;}
+ 100% {color: rgba(255, 0, 0, 0.432);}
+}
+
+.animate-shimmer {
+  animation: shimmer 5s infinite linear;
+}
+
+.neon-text {
+  text-shadow: 
+    3px 3px 0 #000,
+    -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000,
+    0 0 15px rgba(31, 22, 44, 0.5);
+}
+
+.distort-hover {
+  transition: all 0.3s ease;
+}
+
+.distort-hover:hover {
+  transform: skewX(-2deg) scale(1.02);
 }
