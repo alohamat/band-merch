@@ -4,12 +4,12 @@ type DashboardLayoutProps = {
     children: React.ReactNode;
     bg?: DashboardBg;
 }
-type DashboardBg = "purple" | "blue" | "green" | "black"
+type DashboardBg = "purple" | "blue" | "orange" | "black"
 
 const gradientMap: Record<DashboardBg, string> = {
   purple: "bg-linear-to-br from-black to-purple-900",
   blue: "bg-linear-to-br from-black to-blue-900",
-  green: "bg-linear-to-br from-black to-emerald-900",
+  orange: "bg-linear-to-br from-black to-orange-900",
   black: "bg-black",
 }
 

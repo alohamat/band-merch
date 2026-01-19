@@ -1,6 +1,16 @@
 @import "tailwindcss";
 @import url('https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap');
 
+.purple-glass {
+  background: rgba(10, 10, 10, 0.55);
+backdrop-filter: blur(14px) saturate(140%);
+border: 1px solid rgba(255, 255, 255, 0.08);
+box-shadow:
+  0 0 40px rgba(168, 85, 247, 0.25),
+  inset 0 0 20px rgba(255, 255, 255, 0.03);
+
+}
+
 
 
 
