@@ -16,11 +16,11 @@ const gradientMap: Record<DashboardBg, string> = {
 
 export default function DashboardLayout({ children, bg }: DashboardLayoutProps) {
     return (
-        <div className={`min-h-screen flex animated-bg ${gradientMap[bg ?? "black"]}`}>
+        <div className={`min-h-screen flex w-fit md:w-full animated-bg ${gradientMap[bg ?? "black"]}`}>
 
       <div className="flex flex-col flex-1">
         <Navbar />
-        <main className="flex-1 p-6">
+        <main className="flex-1 p-6 mt-15">
           {children}
         </main>
       </div>

@@ -19,7 +19,7 @@ export default function Card({
       {...motionProps}
       className="
         self-start bg-zinc-900
-  shadow-[0_0_60px_rgba(239,68,68,0.35)] w-fit h-52 text-white flex items-center rounded-2xl mt-10
+  shadow-[0_0_60px_rgba(239,68,68,0.35)] w-fit h-fit gap-10 text-white flex flex-col xl:flex-row items-center rounded-2xl mt-10 py-2
       "
     >
       {children}

@@ -1,5 +1,5 @@
-@import "tailwindcss";
 @import url('https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap');
+@import "tailwindcss";
 
 .purple-glass {
   background: rgba(10, 10, 10, 0.55);

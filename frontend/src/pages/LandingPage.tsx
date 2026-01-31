@@ -12,7 +12,7 @@ export default function LandingPage() {
           initial={{ y: 40, opacity: 0 }}
           animate={{ y: -40, opacity: 1 }}
           transition={{ duration: 1.2 }}
-          className="text-center"
+          className="text-center mt-15 mb-25"
         >
           <h1 className="font-rubik text-7xl md:text-9xl leading-none tracking-tight neon-text">
             <motion.span
@@ -21,7 +21,7 @@ export default function LandingPage() {
               animate={{ x: 0, opacity: 1 }}
               transition={{ duration: 1.2 }}
             >
-              TURN THE
+              The
             </motion.span>
             <br />
             <motion.span
@@ -30,16 +30,16 @@ export default function LandingPage() {
               animate={{ x: 0, opacity: 1 }}
               transition={{ duration: 2.2 }}
             >
-              VOLUME
+              ROCK
             </motion.span>
             <br />
             <motion.span
-              className="text-white inline-block"
+              className="text-white inline-block "
               initial={{ x: 140, opacity: 0 }}
               animate={{ x: 0, opacity: 1 }}
               transition={{ duration: 1.2 }}
             >
-              TO ELEVEN
+              Experience
             </motion.span>
           </h1>
 
@@ -49,7 +49,7 @@ export default function LandingPage() {
           </p>
         </motion.div>
        <Card>
-          <img src={NirvanaLogo} alt="nirvanalogo" className="h-52 rounded-l-2xl" />
+          <img src={NirvanaLogo} alt="nirvanalogo" className="h-18 xl:h-48 rounded-l-2xl" />
           <div className="self-start">
             <h2 className="font-rubik text-4xl mt-4 ml-4">Nirvana</h2>
             <p className="font-mono text-sm mt-2 ml-4 mr-4">
@@ -61,7 +61,7 @@ export default function LandingPage() {
           </button>
         </Card>
         <Card>
-          <img src={HendrixLogo} alt="hendrixlogo" className="h-48 rounded-l-2xl"/>
+          <img src={HendrixLogo} alt="hendrixlogo" className="h-18 xl:h-48 rounded-l-2xl"/>
           <div className="self-start">
             <h2 className="font-rubik text-4xl mt-4 ml-4">Jimi Hendrix</h2>
             <p className="font-mono text-sm mt-2 ml-4 mr-4">
